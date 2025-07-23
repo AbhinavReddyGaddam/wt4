@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Navbar Demo</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- Basic Navbar with Brand -->
+    <nav class="navbar bg-light mb-4">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">MyWebsite</a>
+      </div>
+    </nav>
+
+    <!-- Navbar with links -->
+    <nav class="navbar navbar-expand bg-dark navbar-dark mb-4">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Logo</a>
+        <div class="navbar-nav">
+          <a class="nav-link active" href="#">Home</a>
+          <a class="nav-link" href="#">Services</a>
+          <a class="nav-link" href="#">About</a>
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Navbar with background color and search form -->
+    <nav class="navbar bg-primary navbar-dark mb-4">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">AppName</a>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+    <!-- Sticky Navbar -->
+    <nav class="navbar bg-warning sticky-top mb-4">
+      <div class="container-fluid">
+        <span class="navbar-text fw-bold">
+          Sticky Navbar - Always on Top When Scrolling
+        </span>
+      </div>
+    </nav>
+
+    <!-- Fixed Bottom Navbar -->
+    <nav class="navbar bg-secondary navbar-dark fixed-bottom">
+      <div class="container-fluid justify-content-center">
+        <span class="navbar-text text-white">
+          Fixed Bottom Navbar
+        </span>
+      </div>
+    </nav>
+
+    <!-- Content to Scroll -->
+    <div class="container mt-5 mb-5">
+      <h2>Scroll Content</h2>
+      <p>This content is here just to make the page scrollable. Keep scrolling to see sticky and fixed navbars in action.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.</p>
+      <p>...</p>
+      <p style="height: 500px;"></p>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Bootstrap Modal Example</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Local Bootstrap CSS -->
+  <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css" />
+</head>
+<body>
+  <div class="container mt-5">
+    <h2 class="text-center mb-4">Modal Dialog</h2>
+
+    <!-- Modal -->
+    <div class="modal d-block" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h5 class="modal-title">Modal Title</h5>
+            <button type="button" class="btn-close" aria-label="Close" disabled></button>
+          </div>
+
+          <!-- Modal Body -->
+          <div class="modal-body">
+            <p>This is the modal body content.</p>
+          </div>
+
+          <!-- Modal Footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" disabled>Close</button>
+            <button type="button" class="btn btn-primary" disabled>Save changes</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

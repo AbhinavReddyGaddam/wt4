@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Bootstrap Modal (No JavaScript)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- ✅ Local Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+</head>
+<body>
+  <div class="container mt-5">
+    <h2 class="text-center mb-4">Bootstrap Modal Structure (Static, No JS)</h2>
+
+    <!-- Trigger Button (non-functional without JS) -->
+    <button type="button" class="btn btn-primary">
+      Launch Demo Modal (Non-functional)
+    </button>
+
+    <hr />
+
+    <!-- Static Modal Layout (always visible) -->
+    <div class="modal d-block position-static" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h5 class="modal-title">Static Modal Title</h5>
+            <button type="button" class="btn-close" aria-label="Close" disabled></button>
+          </div>
+
+          <!-- Modal Body -->
+          <div class="modal-body">
+            <p>This is a static Bootstrap modal rendered without any JavaScript.</p>
+          </div>
+
+          <!-- Modal Footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" disabled>Close</button>
+            <button type="button" class="btn btn-primary" disabled>Save changes</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Cards</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- ✅ Local Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container mt-5">
+    <h2 class="text-center mb-4">Bootstrap Cards (No JavaScript)</h2>
+
+    <!-- 🧾 Basic Card -->
+    <div class="card mb-4">
+      <div class="card-body">
+        <h5 class="card-title">Basic Card</h5>
+        <p class="card-text">This is a simple card with title and text content.</p>
+      </div>
+    </div>
+
+    <!-- 🖼️ Card with Image Top -->
+    <div class="card mb-4" style="width: 18rem;">
+      <img src="https://via.placeholder.com/286x180" class="card-img-top" alt="Sample Image">
+      <div class="card-body">
+        <h5 class="card-title">Card with Image</h5>
+        <p class="card-text">Image appears on top of this card.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+
+    <!-- 🪪 Card with Header and Footer -->
+    <div class="card text-center mb-4">
+      <div class="card-header">
+        Featured
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Card with Header and Footer</h5>
+        <p class="card-text">You can include headers and footers in cards.</p>
+        <a href="#" class="btn btn-success">Click Me</a>
+      </div>
+      <div class="card-footer text-muted">
+        Footer text
+      </div>
+    </div>
+
+    <!-- 🗂️ Card with List Group -->
+    <div class="card mb-4" style="width: 18rem;">
+      <div class="card-header">Card with List Group</div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">List item 1</li>
+        <li class="list-group-item">List item 2</li>
+        <li class="list-group-item">List item 3</li>
+      </ul>
+    </div>
+
+    <!-- 🧱 Horizontal Card -->
+    <div class="card mb-4 flex-row" style="max-width: 540px;">
+      <img src="https://via.placeholder.com/150" class="img-fluid rounded-start" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Horizontal Card</h5>
+        <p class="card-text">This card is laid out horizontally using flexbox.</p>
+      </div>
+    </div>
+
+    <!-- 🎨 Colored Background Cards -->
+    <div class="row mb-4">
+      <div class="col-md-4">
+        <div class="card text-white bg-primary mb-3">
+          <div class="card-body">
+            <h5 class="card-title">Primary Card</h5>
+            <p class="card-text">Card with primary background.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card text-white bg-success mb-3">
+          <div class="card-body">
+            <h5 class="card-title">Success Card</h5>
+            <p class="card-text">Card with success background.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card text-white bg-danger mb-3">
+          <div class="card-body">
+            <h5 class="card-title">Danger Card</h5>
+            <p class="card-text">Card with danger background.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
